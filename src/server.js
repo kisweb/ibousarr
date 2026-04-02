@@ -20,7 +20,7 @@ if (typeof(PhusionPassenger) !== 'undefined') {
 const app = express();
 
 // Client pages (for testing purposes)
-app.use("/", express.static("client"));
+app.use("/", express.static("dist"));
 
 // Définir l'URL du serveur via le env
 const { url, cors } = config.server;

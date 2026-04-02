@@ -7,7 +7,7 @@ const server = {
   host: process.env.HOST || "0.0.0.0",
   port: process.env.PORT || 3000,
   secure: process.env.SECURE || false,
-  cors: process.env.CORS || ""
+  cors: process.env.CORS || "*"
 };
 
 const database = {
